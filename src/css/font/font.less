@@ -1,0 +1,32 @@
+@font-cdn: 'https://cdn.jsdmirror.com/gh/SimonAKing/font/fonts';
+
+.font-face(@family, @weight, @style: normal, @suffix: '') {
+  @font-url: '@{font-cdn}/ComicNeue-@{weight}@{suffix}';
+  
+  @font-face {
+    font-family: @family;
+    font-display: swap;
+    src: url('@{font-url}.eot');
+    src: url('@{font-url}.eot?#iefix') format('embedded-opentype'),
+         url('@{font-url}.woff') format('woff'),
+         url('@{font-url}.ttf') format('truetype');
+    font-weight: if(@weight = Light, 100, if(@weight = Regular, 300, 700));
+    & when (@style = oblique) { 
+      font-style: oblique; 
+    }
+  }
+}
+
+.font-face('Comic Sans MS', Light);
+.font-face('Comic Sans MS', Light, oblique, -Oblique);
+.font-face('Comic Sans MS', Regular);
+.font-face('Comic Sans MS', Regular, oblique, -Oblique);
+.font-face('Comic Sans MS', Bold);
+.font-face('Comic Sans MS', Bold, oblique, -Oblique);
+
+.font-face(cursive, Light);
+.font-face(cursive, Light, oblique, -Oblique);
+.font-face(cursive, Regular);
+.font-face(cursive, Regular, oblique, -Oblique);
+.font-face(cursive, Bold);
+.font-face(cursive, Bold, oblique, -Oblique);

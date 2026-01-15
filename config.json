@@ -1,42 +1,42 @@
 {
 	"head": {
-		"title": "SimonAKing",
+		"title": "朱茱",
 		"description": "Author:SimonAKing,Category:Personal Blog",
-		"favicon": "favicon.ico"
+		"favicon": "https://cdn.jsdmirror.com/gh/SajunaOo/Image/OpenList-Moe/favicon.ico"
 	},
 	"intro": {
-		"title": "SimonAKing",
+		"title": "朱茱",
 		"subtitle": "Front back left right end engineer",
 		"enter": "enter",
 		"supportAuthor": true,
 		"background": true
 	},
 	"main": {
-		"name": "SimonAKing",
+		"name": "朱茱",
 		"signature": "Code & Input & Output",
 		"avatar": {
-			"link": "assets/avatar.jpg",
+			"link": "https://cdn.jsdmirror.com/gh/SajunaOo/Image/avatar/avatar.webp",
 			"height": "100",
 			"width": "100"
 		},
 		"ul": {
 			"first": {
-				"href": "blog/",
+				"href": "https://www.isajuna.com/",
 				"icon": "bokeyuan",
 				"text": "Blog"
 			},
 			"second": {
-				"href": "about/",
+				"href": "https://www.isajuna.com/cross.html",
 				"icon": "xiaolian",
 				"text": "About"
 			},
 			"third": {
-				"href": "mailto:hi@simonaking.com",
+				"href": "mailto:Sajuna@qq.com",
 				"icon": "email",
 				"text": "Email"
 			},
 			"fourth": {
-				"href": "https://github.com/SimonAKing",
+				"href": "https://github.com/SajunaOo",
 				"icon": "github",
 				"text": "Github"
 			}
