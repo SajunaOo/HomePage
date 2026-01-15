@@ -1,19 +1,19 @@
 {
 	"head": {
 		"title": "朱茱",
-		"description": "Author:SimonAKing,Category:Personal Blog",
+		"description": "喜欢可爱和美好的事物，讨厌繁琐和虚伪的人际。",
 		"favicon": "https://cdn.jsdmirror.com/gh/SajunaOo/Image/OpenList-Moe/favicon.ico"
 	},
 	"intro": {
 		"title": "朱茱",
-		"subtitle": "Front back left right end engineer",
+		"subtitle": "莫听穿林打叶声，何妨吟啸且徐行。",
 		"enter": "enter",
-		"supportAuthor": true,
+		"supportAuthor": false,
 		"background": true
 	},
 	"main": {
 		"name": "朱茱",
-		"signature": "Code & Input & Output",
+		"signature": "喜欢可爱和美好的事物，讨厌繁琐和虚伪的人际。",
 		"avatar": {
 			"link": "https://cdn.jsdmirror.com/gh/SajunaOo/Image/avatar/avatar.webp",
 			"height": "100",
